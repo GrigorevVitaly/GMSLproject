@@ -1,12 +1,12 @@
 {
-  "name": "ASBuilder",
+  "name": "asbuilder",
   "version": "1.0.1",
   "author": "Alex Serkin",
   "license": "ISC",
   "description": "gulp builder",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jichanghir/gulp-builder.git"
+    "url": "git+https://github.com/jichanghir/gulp-builder.git"
   },
   "scripts": {},
   "devDependencies": {
@@ -34,5 +34,10 @@
     "jquery": "~3.2.1",
     "jquery-ui-dist": "^1.12.1",
     "normalize.css": "~7.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jichanghir/gulp-builder/issues"
+  },
+  "homepage": "https://github.com/jichanghir/gulp-builder#readme",
+  "main": "gulpfile.js"
 }

@@ -1,15 +1,13 @@
-include ./helpers/mixins
+
 
 doctype html
 html
     head
-        title PageTitle
+        title JOHN MURRAY & SONS
         link(rel="stylesheet" href='style/foundation.css')
         link(rel="stylesheet" href='style/style.css')
     body
-        +select('c-select', ['some1', 'some2', 'some3', 'some4'])
-
-
+       include parts/index/header.pug
 
         script(src='js/foundation.js')
         script(src='js/main.js')
