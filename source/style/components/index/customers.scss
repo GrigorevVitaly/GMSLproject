@@ -1,0 +1,34 @@
+.customers {
+    position: relative;
+    display: flex;
+    height: 380px;
+    width: 100%;
+    background-color: #f4f4f4;
+    &_slide-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        &_title {
+            font-family: 'SFUITextMedium';
+            font-size: 36px;
+            color: #191d1f;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 60px;
+        }
+        &_line {
+            height: 3px;
+            width: 100px;
+            background-color: #e1e1e1;
+            margin: 25px 0 70px 0;
+        }
+    }
+    &_slider {
+        &_item {
+            &_icon {
+                padding: 0 0 75px 120px;
+            }
+        }
+    }
+}

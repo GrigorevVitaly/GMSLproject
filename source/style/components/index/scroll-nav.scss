@@ -1,0 +1,13 @@
+.nav_scroll {
+    display: flex;
+    &_item {
+        height: 8px;
+        width: 8px;
+        background-color: #e1e1e1;
+        border-radius: 50%;
+        margin-left: 8px;
+        &_active {
+            background-color: #b6b6b6;
+        }
+    }
+}

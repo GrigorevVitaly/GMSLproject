@@ -3,22 +3,6 @@
     display: flex;
     height: 600px;
     widows: 100%;
-    &_slide-arrow-left {
-        display: flex;
-        align-items: center;
-        width: 30px;
-        height: 100%;
-        &_content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 110px;
-            width: 30px;
-            background-color: #191d1f;
-            opacity: 0.8;
-            cursor: pointer;
-        }
-    }
     &_slide-content {
         display: flex;
         justify-content: space-between;
@@ -71,23 +55,6 @@
             }
         }
     }
-    &_slide-arrow-right {
-        height: 100%;
-        width: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        &_content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 110px;
-            background-color: #191d1f;
-            opacity: 0.8;
-            cursor: pointer;
-        }
-    }
 }
 #hero-sliders {
     position: absolute;
@@ -108,40 +75,6 @@
     z-index: -1;
     background: url(../../../images/slide.png) center center no-repeat;
     background-size: cover;
-}
-.btn {
-    height: 42px;
-    width: 180px;
-    border-radius: 4px;
-    cursor: pointer;
-    z-index: 1;
-    &_title {
-        font-family: 'SFUITextSemibold';
-        font-size: 14px;
-        color: white;
-    }
-    &_orange {
-        background-color: #fc5830;
-        margin-right: 12px;
-    }
-    &_white-transparent {
-        border: 2px solid white;
-        background: none;
-    }
-    &_green {
-        height: 40px;
-        width: 145px;
-        background-color: #6dd155;
-        margin: 35px 0 0 30px;
-    }
-    &_green-transparent {
-        position: relative;
-        height: 40px;
-        width: 125px;
-        border: 2px solid white;
-        background: none;
-        margin: 30px 0 0 25px;
-    }
 }
 .img-sert {
     padding: 35px 0 0 20px;
