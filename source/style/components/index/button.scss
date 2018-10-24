@@ -47,4 +47,25 @@
             padding-top: 4px;
         }
     }
+    &_proj {
+        display: flex;
+        background: none;
+        border: none;
+        margin: 30px 0 0 100px;
+        &_title {
+            padding-left: 7px;
+        }
+        &_img {
+            padding: 4px 0 0 14px;
+        }
+    }
+    &_proj-deta {
+        position: relative;
+        background: none;
+        border: 2px solid white;
+        height: 42px;
+        width: 145px;
+        margin: 35px 0 0 50px;
+    }
 }
+
