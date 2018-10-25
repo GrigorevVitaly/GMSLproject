@@ -35,30 +35,6 @@
         align-items: center;
         height: 105px;
         background-color: white;
-        &_logo {
-            display: flex;
-            &_img {
-                height: 60px;
-                width: 50px;
-                margin: 5px 15px 0 0;
-            }
-            &_title {
-                display: flex;
-                flex-direction: column;
-                &_name {
-                    font-family: 'SFUITextBold';
-                    font-size: 24px;
-                    color: #6dd155;
-                    text-transform: uppercase;
-                }
-                &_text {
-                    font-family: 'SFUITextMedium';
-                    font-size: 12px;
-                    color: #263238;
-                    text-transform: uppercase;
-                }
-            }
-        }
         &_right {
             height: 100%;
             display: flex;
@@ -86,43 +62,4 @@
 .container {
     width: 1120px;
     margin: auto;
-}
-.nav_list {
-    list-style: none;
-    display: flex;
-    &_item {
-        padding-bottom: 5px;
-        &_link {
-            text-decoration: none;
-            font-family: 'SFUITextMedium';
-            font-size: 12px;
-            text-transform: uppercase;
-            color: #191d1f;
-            margin-left: 25px;
-            height: 50px;
-            &:focus {
-                color: #6dd155;
-                border-bottom: 5px solid #6dd155;
-                border-top: 5px solid #fff;
-            }
-        }
-    }
-}
-.js-nav_list_item_link {
-    &:after {
-        position: absolute;
-        content: '';
-        border: 4px solid transparent;
-        border-top: 4px solid black;
-        margin: 7px 0 0 5px;
-    }
-    &:focus {
-        &:after {
-            position: absolute;
-            content: '';
-            border: 4px solid transparent;
-            border-bottom: 4px solid #6dd155;
-            margin: 3px 0 0 5px;
-        }
-    }
 }

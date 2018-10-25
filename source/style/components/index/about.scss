@@ -1,4 +1,6 @@
 .about {
+    display: flex;
+    align-items: center;
     height: 360px;
     width: 100%;
     background-color: white;
@@ -9,7 +11,6 @@
         background: url(../../../images/about-bg.png) center center no-repeat;
         background-size: cover;
         border: 2px solid #eceff1;
-        margin: 40px 0 0 145px;
         &_left {
             height: 100%;
             width: 480px;
