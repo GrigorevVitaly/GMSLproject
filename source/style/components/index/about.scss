@@ -4,39 +4,39 @@
     height: 360px;
     width: 100%;
     background-color: white;
-    &_content {
-        display: flex;
-        height: 220px;
-        width: 1150px;
-        background: url(../../../images/about-bg.png) center center no-repeat;
-        background-size: cover;
-        border: 2px solid #eceff1;
-        &_left {
-            height: 100%;
-            width: 480px;
-            &_title {
-                font-family: 'SFUITextRegular';
-                font-size: 18px;
-                color: #191d1f;
-                padding: 35px 0 0 30px;
-            }
-            &_text {
-                font-family: 'SFUITextRegular';
-                font-size: 14px;
-                color: #9b9b9b;
-                padding: 20px 0 0 30px;
-            }
-        }
-        &_right {
-            display: flex;
-            justify-content: flex-end;
-            height: 100%;
-            width: 670px;
-            &_img {
-                height: 205px;
-                width: 405px;
-                margin: 32px 32px 0 0;
-            }
-        }
+}
+.about-content {
+    display: flex;
+    height: 220px;
+    width: 1150px;
+    background: url(../../../images/about-bg.png) center center no-repeat;
+    background-size: cover;
+    border: 2px solid #eceff1;
+}
+.about-left {
+    height: 100%;
+    width: 480px;
+    &__title {
+        font-family: 'SFUITextRegular';
+        font-size: 18px;
+        color: #191d1f;
+        padding: 35px 0 0 30px;
+    }
+    &__text {
+        font-family: 'SFUITextRegular';
+        font-size: 14px;
+        color: #9b9b9b;
+        padding: 20px 0 0 30px;
+    }
+}
+.about-right {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 670px;
+    &__img {
+        height: 205px;
+        width: 405px;
+        margin: 32px 32px 0 0;
     }
 }

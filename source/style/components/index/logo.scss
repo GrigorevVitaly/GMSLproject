@@ -1,26 +1,26 @@
 .logo {
     display: flex;
-    &_icon {
+    &__icon {
         height: 60px;
         width: 50px;
         margin: 5px 15px 0 0;
     }
-    &_title {
+    &__content {
         display: flex;
         flex-direction: column;
         width: 190px;
-        &_name {
-            font-family: 'SFUITextBold';
-            font-size: 24px;
-            color: #6dd155;
-            text-transform: uppercase;
-        }
-        &_text {
-            font-family: 'SFUITextMedium';
-            font-size: 12px;
-            color: #263238;
-            text-transform: uppercase;
-        }
+    }
+    &__name {
+        font-family: 'SFUITextBold';
+        font-size: 24px;
+        color: #6dd155;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-family: 'SFUITextMedium';
+        font-size: 12px;
+        color: #263238;
+        text-transform: uppercase;
     }
 }
 .logo_footer_title_text {

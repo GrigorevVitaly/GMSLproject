@@ -4,26 +4,26 @@
     border-radius: 4px;
     cursor: pointer;
     z-index: 1;
-    &_title {
+    &__title {
         font-family: 'SFUITextSemibold';
         font-size: 14px;
         color: white;
     }
-    &_orange {
+    &__color_orange {
         background-color: #fc5830;
         margin-right: 12px;
     }
-    &_white-transparent {
+    &__white-transparent {
         border: 2px solid white;
         background: none;
     }
-    &_green {
+    &__color_green {
         height: 40px;
         width: 145px;
         background-color: #6dd155;
         margin: 35px 0 0 30px;
     }
-    &_green-transparent {
+    &__green_transparent {
         position: relative;
         height: 40px;
         width: 125px;
@@ -31,35 +31,32 @@
         background: none;
         margin: 30px 0 0 25px;
     }
-    &_white {
+    &__white {
         display: flex;
         height: 42px;
         width: 145px;
         border: 2px solid #b6b6b6;
         background: none;
-        &_title {
-            font-family: 'SFUITextSemibold';
-            font-size: 14px;
-            color: black;
-            padding: 0 17px 0 30px;
-        }
-        &_img {
-            padding-top: 4px;
-        }
     }
-    &_proj {
+    &__title-white {
+        font-family: 'SFUITextSemibold';
+        font-size: 14px;
+        color: black;
+        padding: 0 17px 0 30px;
+    }
+    &__img {
+        padding-top: 4px;
+    }
+    &__no-border {
         display: flex;
         background: none;
         border: none;
         margin: 30px 0 0 100px;
-        &_title {
-            padding-left: 7px;
-        }
-        &_img {
-            padding: 4px 0 0 14px;
-        }
     }
-    &_proj-deta {
+    &__img-padding {
+        padding: 4px 0 0 14px;
+    }
+    &__project {
         position: relative;
         background: none;
         border: 2px solid white;

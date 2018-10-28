@@ -1,45 +1,50 @@
 section.updates
-    .updates_up
-        .updates_up_head.container
-            .updates_up_head_title news and updates
-            button.btn.btn_white
-                .btn_white_title More news
-                img(src="images/btns-arrow-right.svg", alt="arrow").btn_white_img
-        .updates_up_news.container
-            .updates_up_news_item
-                img(src="images/upd-img1.png", alt="office").updates_up_news_item_img
-                .updates_up_news_item_content
-                    .updates_up_news_item_content_date
-                        .updates_up_news_item_content_date_text 17 SAT 2018
-                    .updates_up_news_item_content_title Founded in 1960 by John Murray, the company is one of the...
-                    .updates_up_news_item_content_text At John Murray & Sons Ltd. (JMSL), our emphasis is on quality, and we share one objective; to meet and exceed our customers’ expectations.
-            .updates_up_news_item
-                img(src="images/upd-img2.png", alt="office").updates_up_news_item_img
-                .updates_up_news_item_content
-                    .updates_up_news_item_content_date
-                        .updates_up_news_item_content_date_text 17 SAT 2018
-                    .updates_up_news_item_content_title Founded in 1960 by John Murray, the company is one of the...
-                    .updates_up_news_item_content_text At John Murray & Sons Ltd. (JMSL), our emphasis is on quality, and we share one objective; to meet and exceed our customers’ expectations.
-    .updates_projects
-        .updates_projects_slider.container
+    .updates-top
+        .updates-header.container
+            .updates-header__title news and updates
+            button.btn.btn__white
+                .btn__title.btn__title-white More news
+                img(src="images/btns-arrow-right.svg", alt="arrow").btn__img
+        .updates-news.container
+            .news-item
+                img(src="images/upd-img1.png", alt="office").news-item__img
+                .news-item__content
+                    .news-item__date-wrapper
+                        .news-item__date 17 SAT 2018
+                    .news-item__title Founded in 1960 by John Murray, the company is one of the...
+                    .news-item__text At John Murray & Sons Ltd. (JMSL), our emphasis is on quality, and we share one objective; to meet and exceed our customers’ expectations.
+            .news-item
+                img(src="images/upd-img2.png", alt="office").news-item__img
+                .news-item__content
+                    .news-item__date-wrapper
+                        .news-item__date 17 SAT 2018
+                    .news-item__title Founded in 1960 by John Murray, the company is one of the...
+                    .news-item__text At John Murray & Sons Ltd. (JMSL), our emphasis is on quality, and we share one objective; to meet and exceed our customers’ expectations.
+    .updates-projects
+        .projects-slider.container
             ul.pro-slide
                 li.pro-slide_item
                     img(src="images/slide-proj-bg.png", alt="IMG").pro-slide_item_img
-            .slide_content        
+            .slide-content        
                 .slide-nav
-                    .slide-nav_btns
-                        .slide-nav_btns_title Latest projects
-                        #slide-btns
-                            #prev-btn
-                                img(src="images/slider-proj-left.png", alt="arrow")#prev-btn_img
-                            #next-btn
-                                img(src="images/slider-proj-right.png", alt="arrow")#next-btn_img
-                    button.btn.btn_proj
-                        .btn_title.btn_proj_title All projects
-                        img(src="images/proj-btn-arrow.svg", alt="arrow").btn_proj_img
-            .updates_projects_slider_date 18 SAT 2018
-            .updates_projects_slider_title Kitchen class room
-            .updates_projects_slider_text At John Murray & Sons Ltd. (JMSL), our emphasis...
-            button.btn.btn_proj-deta
-                .btn_title View details
+                    .slide-nav__btns
+                        .slide-nav__title Latest projects
+                        .slide-btns
+                            .slide-btns__prev
+                                img(src="images/slider-proj-left.png", alt="arrow").slide-btns__img
+                            .slide-btns__next
+                                img(src="images/slider-proj-right.png", alt="arrow").slide-btns__img
+                    button.btn.btn__no-border
+                        .btn__title All projects
+                        img(src="images/proj-btn-arrow.svg", alt="arrow").btn__img.btn__img-padding
+            .projects-slider__date 18 SAT 2018
+            .projects-slider__title Kitchen class room
+            .projects-slider__text At John Murray & Sons Ltd. (JMSL), our emphasis...
+            button.btn.btn__project
+                .btn__title View details
+            .nav-scroll.nav-scroll__project
+                a(href="#").nav-scroll__item-color.nav-scroll__item-color-active
+                a(href="#").nav-scroll__item.nav-scroll__item-color
+                a(href="#").nav-scroll__item.nav-scroll__item-color
+                a(href="#").nav-scroll__item.nav-scroll__item-color
 

@@ -1,25 +1,27 @@
-.nav_list {
-    list-style: none;
-    display: flex;
-    &_item {
-        padding-bottom: 5px;
-        &_link {
-            text-decoration: none;
-            font-family: 'SFUITextMedium';
-            font-size: 12px;
-            text-transform: uppercase;
-            color: #191d1f;
-            margin-left: 25px;
-            height: 50px;
-            &:focus {
-                color: #6dd155;
-                border-bottom: 5px solid #6dd155;
-                border-top: 5px solid #fff;
-            }
+.menu {
+    &__list {
+       display: flex;
+       list-style: none;
+    }
+    &__item {
+        padding-bottom: 5px; 
+    }
+    &__link {
+        text-decoration: none;
+        font-family: 'SFUITextMedium';
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #191d1f;
+        margin-left: 25px;
+        height: 50px;
+        &:focus {
+            color: #6dd155;
+            border-bottom: 5px solid #6dd155;
+            border-top: 5px solid #fff;
         }
     }
 }
-.js-nav_list_item_link {
+.js-menu__link {
     &:after {
         position: absolute;
         content: '';

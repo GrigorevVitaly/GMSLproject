@@ -3,58 +3,6 @@
     display: flex;
     height: 600px;
     widows: 100%;
-    &_slide-content {
-        display: flex;
-        justify-content: space-between;
-        &_left {
-            height: 260px;
-            width: 570px;
-            background-color: rgba($color: #191d1f, $alpha: 0.7);
-            border-left: 4px solid #6dd155;
-            z-index: 0;
-            &_title {
-                font-family: 'SFUITextBold';
-                font-size: 44px;
-                color: white;
-                text-transform: uppercase;
-                padding: 25px 25px 0 25px;
-            }
-            &_text {
-                font-family: 'SFUITextRegular';
-                font-size: 14px;
-                color: white;
-                line-height: 27px;
-                padding: 25px 25px 0 25px;
-            }
-            &_buttons {
-                width: 100%;
-                height: 42px;
-                margin: 25px 0 0 25px;
-            }
-        }
-        &_right {
-            height: 260px;
-            width: 215px;
-            background-color: rgba($color: #191d1f, $alpha: 0.7);
-            &_title {
-                font-family: 'SFUITextRegular';
-                font-size: 14px;
-                color: white;
-                text-align: left;
-                padding: 30px 20px 0 20px;
-            }
-            &_sert {
-                padding: 25px 0 0 35px;
-            }
-            &_text {
-                font-family: 'SFUITextBold';
-                font-size: 12px;
-                color: white;
-                text-align: center;
-                padding-top: 17px;
-            }
-        }
-    }
 }
 #hero-sliders {
     position: absolute;
@@ -76,6 +24,58 @@
     background: url(../../../images/slide.png) center center no-repeat;
     background-size: cover;
 }
-.img-sert {
-    padding: 35px 0 0 20px;
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left {
+    height: 260px;
+    width: 570px;
+    background-color: rgba($color: #191d1f, $alpha: 0.7);
+    border-left: 4px solid #6dd155;
+    z-index: 0;
+    &__title {
+        font-family: 'SFUITextBold';
+        font-size: 44px;
+        color: white;
+        text-transform: uppercase;
+        padding: 25px 25px 0 25px;
+    }
+    &__text {
+        font-family: 'SFUITextRegular';
+        font-size: 14px;
+        color: white;
+        line-height: 27px;
+        padding: 25px 25px 0 25px;
+    }
+    &__btns {
+        width: 100%;
+        height: 42px;
+        margin: 25px 0 0 25px;
+    }
+}
+.hero-right {
+    height: 260px;
+    width: 215px;
+    background-color: rgba($color: #191d1f, $alpha: 0.7);
+    &__title {
+        font-family: 'SFUITextRegular';
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        padding: 30px 20px 0 20px;
+    }
+    &__img_small {
+        padding: 35px 0 0 20px;
+    }
+    &__img_big {
+        padding: 25px 0 0 35px;
+    }
+    &__text {
+        font-family: 'SFUITextBold';
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding-top: 17px;
+    }
 }

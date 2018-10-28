@@ -1,13 +1,29 @@
-.nav_scroll {
+.nav-scroll {
+    position: relative;
     display: flex;
-    &_item {
+    &__item {
         height: 8px;
         width: 8px;
         background-color: #e1e1e1;
         border-radius: 50%;
         margin-left: 8px;
-        &_active {
-            background-color: #b6b6b6;
-        }
+    }
+    &__item-active {
+        background-color: #b6b6b6;
+    }
+    &__project {
+        position: absolute;
+        right: 50px;
+        bottom: -230px;
+    }
+    &__item-color {
+        height: 8px;
+        width: 8px;
+        background-color: rgba($color: #fff, $alpha: 0.4);
+        border-radius: 50%;
+        margin-left: 8px;
+    }
+    &__item-color-active {
+        background-color: #fff;
     }
 }

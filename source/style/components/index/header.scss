@@ -1,65 +1,72 @@
 .header {
     height: 140px;
     width: 100%;
-    &_contacts {
-        height: 35px;
-        width: 100%;
-        background-color: black;
-        &_content {
-            display: flex; 
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            &_img {
-                height: 12px;
-                width: 8px;
-                margin-bottom: 5px;
-            }
-            &_text {
-                font-family: 'SFUITextMedium';
-                font-size: 12px;
-                color: white;
-                padding: 0 7px;
-            }
-            &_link {
-                font-family: 'SFUITextMedium';
-                font-size: 12px;
-                text-decoration: none;
-                color: #6dd155;
-            }
-        }
-    }
-    &_content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 105px;
-        background-color: white;
-        &_right {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            &_phone {
-                display: flex;
-                justify-content: flex-end;
-                height: 50%;
-                align-items: center;
-                &_img {
-                    padding-bottom: 3px;
-                }
-                &_text {
-                    font-family: 'SFUITextMedium';
-                    font-size: 12px;
-                    color: #263238;
-                    text-transform: uppercase;
-                    padding-left: 15px;
-                }
-            }
-        }
-    }
 }
 .container {
     width: 1120px;
     margin: auto;
 }
+.header-address {
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    &__content {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    &__img {
+        height: 12px;
+        width: 8px;
+        margin-bottom: 5px;
+    }
+    &__text {
+        font-family: 'SFUITextMedium';
+        font-size: 12px;
+        color: white;
+        padding: 0 7px;
+    }
+    &__link {
+        font-family: 'SFUITextMedium';
+        font-size: 12px;
+        text-decoration: none;
+        color: #6dd155;
+    }
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    background-color: white;
+}
+.header-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*.header-address__content {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header-address__img {
+    height: 12px;
+    width: 8px;
+    margin-bottom: 5px;
+}
+.header-address__text {
+    font-family: 'SFUITextMedium';
+    font-size: 12px;
+    color: white;
+    padding: 0 7px;
+}
+.header-address__link {
+    font-family: 'SFUITextMedium';
+    font-size: 12px;
+    text-decoration: none;
+    color: #6dd155;
+}*/

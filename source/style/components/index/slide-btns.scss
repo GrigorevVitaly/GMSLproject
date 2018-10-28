@@ -1,0 +1,20 @@
+.slide-navi {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 110px;
+        width: 30px;
+        background-color: rgba($color: #191d1f, $alpha: 0.8);
+        cursor: pointer;
+    }
+    &__btn-grey {
+        background-color: #dedede;
+        margin-top: 80px;
+    }
+}

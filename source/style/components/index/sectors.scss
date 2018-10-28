@@ -4,151 +4,6 @@
     widows: 100%;
     background: url(../../../images/sectors-bg.png) center center no-repeat;
     background-size: cover;
-    &_content {
-        position: relative;
-        &_info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            &_title {
-                font-family: 'SFUITextBold';
-                font-size: 36px;
-                color: white;
-                text-transform: uppercase;
-                text-align: center;
-                padding-top: 60px;
-            }
-            &_line {
-                height: 2px;
-                width: 100px;
-                background-color: #6dd155;
-                margin: 30px 0;
-            }
-            &_text {
-                font-family: 'SFUITextRegular';
-                font-size: 14px;
-                color: white;
-                width: 630px;
-                text-align: center;
-            }
-        }
-        &_segment {
-            display: flex;
-            padding-top: 60px;
-            &_commercial {
-                display: flex;
-                align-items: flex-end;
-                height: 250px;
-                width: 340px;
-                margin-left: 35px;
-                &_title {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    height: 75px;
-                    width: 100%;
-                    background-color: rgba($color: #6dd155, $alpha: 0.9);
-                    text-decoration: none;
-                    &_text {
-                        font-family: 'SFUITextBold';
-                        font-size: 20px;
-                        color: white;
-                        padding-left: 20px;
-                    }
-                    &_icon {
-                        height: 16px;
-                        width: 10px;
-                        margin-right: 25px;
-                    }
-                }
-                &:first-child {
-                    background: url(../../../images/comerc.png) center center no-repeat;
-                    background-size: cover;
-                    margin-left: 0;
-                }
-                &:nth-child(2) {
-                    background: url(../../../images/manufac.png) center center no-repeat;
-                    background-size: cover;
-                }
-                &:nth-child(3) {
-                    background: url(../../../images/security.png) center center no-repeat;
-                    background-size: cover;
-                }
-            }
-        }
-        &_education {
-            display: flex;
-            padding-top: 35px;
-            &_schools {
-                display: flex;
-                align-items: flex-end;
-                height: 250px;
-                width: 525px;
-                background: url(../../../images/school.png) center center no-repeat;
-                background-size: cover;
-                &_title {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    height: 75px;
-                    width: 100%;
-                    background-color: rgba($color: #6dd155, $alpha: 0.9);
-                    text-decoration: none;
-                    &_text {
-                        font-family: 'SFUITextBold';
-                        font-size: 20px;
-                        color: white;
-                        padding-left: 20px;
-                    }
-                    &_icon {
-                        height: 16px;
-                        width: 10px;
-                        margin-right: 25px;
-                    }
-                }
-            }
-            &_security {
-                position: relative;
-                height: 250px;
-                width: 525px;
-                background: url(../../../images/security.png) center center no-repeat;
-                background-size: cover;
-                margin-left: 40px;
-                &_title {
-                    position: relative;
-                    font-family: 'SFUITextBold';
-                    font-size: 20px;
-                    color: white;
-                    z-index: 1;
-                    padding: 30px 0 0 25px;
-                }
-                &_line {
-                    position: relative;
-                    height: 3px;
-                    width: 100px;
-                    background-color: white;
-                    margin: 30px 0 30px 25px;
-                }
-                &_text {
-                    position: relative;
-                    font-family: 'SFUITextRegular';
-                    font-size: 14px;
-                    color: white;
-                    padding-left: 25px;
-                }
-                &:before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    right: 0;
-                    left: 0;
-                    background-color: rgba($color: #3f8d2c, $alpha: 0.9);
-                }
-            }
-        }
-    }
     &:before {
         content: '';
         position: absolute;
@@ -157,5 +12,150 @@
         right: 0;
         left: 0;
         background-color: rgba($color: #000, $alpha: 0.7);
+    }
+}
+.sectors-content {
+    position: relative;
+}
+.sectors-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+        font-family: 'SFUITextBold';
+        font-size: 36px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 60px;
+    }
+    &__line {
+        height: 2px;
+        width: 100px;
+        background-color: #6dd155;
+        margin: 30px 0;
+    }
+    &__text {
+        font-family: 'SFUITextRegular';
+        font-size: 14px;
+        color: white;
+        width: 630px;
+        text-align: center;
+    }
+}
+.sectors-segment {
+    display: flex;
+    padding-top: 60px;
+}
+.sectors-commercial {
+    display: flex;
+    align-items: flex-end;
+    height: 250px;
+    width: 340px;
+    margin-left: 35px;
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 75px;
+        width: 100%;
+        background-color: rgba($color: #6dd155, $alpha: 0.9);
+        text-decoration: none;
+    }
+    &__text {
+        font-family: 'SFUITextBold';
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+    }
+    &__icon {
+        height: 16px;
+        width: 10px;
+        margin-right: 25px;
+    }
+    &:first-child {
+        background: url(../../../images/comerc.png) center center no-repeat;
+        background-size: cover;
+        margin-left: 0;
+    }
+    &:nth-child(2) {
+        background: url(../../../images/manufac.png) center center no-repeat;
+        background-size: cover;
+    }
+    &:nth-child(3) {
+        background: url(../../../images/security.png) center center no-repeat;
+        background-size: cover;
+    }
+}
+.sectors-education  {
+    display: flex;
+    padding-top: 35px;
+}
+.sectors-schools {
+    display: flex;
+    align-items: flex-end;
+    height: 250px;
+    width: 525px;
+    background: url(../../../images/school.png) center center no-repeat;
+    background-size: cover;
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 75px;
+        width: 100%;
+        background-color: rgba($color: #6dd155, $alpha: 0.9);
+        text-decoration: none;
+    }
+    &__text {
+        font-family: 'SFUITextBold';
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+    }
+    &__icon {
+        height: 16px;
+        width: 10px;
+        margin-right: 25px;
+    }
+}
+.sectors-security {
+    position: relative;
+    height: 250px;
+    width: 525px;
+    background: url(../../../images/security.png) center center no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+    &__title {
+        position: relative;
+        font-family: 'SFUITextBold';
+        font-size: 20px;
+        color: white;
+        z-index: 1;
+        padding: 30px 0 0 25px;
+    }
+    &__line {
+        position: relative;
+        height: 3px;
+        width: 100px;
+        background-color: white;
+        margin: 30px 0 30px 25px;
+    }
+    &__text {
+        position: relative;
+        font-family: 'SFUITextRegular';
+        font-size: 14px;
+        color: white;
+        padding-left: 25px;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba($color: #3f8d2c, $alpha: 0.9);
     }
 }
