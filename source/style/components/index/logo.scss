@@ -22,6 +22,22 @@
         color: #263238;
         text-transform: uppercase;
     }
+    &__content_width {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 245px;
+    }
+    &__name_font_size {
+        font-family: 'SFUITextHeavy';
+        font-size: 20px;
+    }
+    &__text_color_white {
+        font-family: 'SFUIDisplayMedium';
+        font-size: 12px;
+        color: white;
+        padding: 7px 0 0 1px;
+    }
 }
 .logo_footer_title_text {
     color: white;
